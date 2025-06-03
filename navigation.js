@@ -12,6 +12,7 @@ navLinks.forEach(link => {
     link.addEventListener('click', function(event) {
         event.preventDefault(); // Evita el comportamiento predeterminado del enlace (#)
 
+        
         const targetId = this.getAttribute('href').substring(1) + '-content'; // Obtiene el ID de la sección a mostrar
 
         // Ocultar todas las secciones

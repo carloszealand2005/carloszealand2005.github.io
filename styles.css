@@ -72,6 +72,10 @@ nav ul li a.active {
     flex: 1; /* Ocupa menos espacio que el contenido principal (proporción) */
 }
 
+.sidebar h3, .sidebar p{
+    text-align: center;
+}
+
 /* Footer (por ahora vacío) */
 footer {
     margin-top: 20px;
@@ -203,11 +207,11 @@ footer {
 
 /* Estilos para la sección blog-content */
 #blog-content {
-    padding: 20px; /* Asegúrate de que tenga un padding interno */
+    padding: 10px; /* Asegúrate de que tenga un padding interno */
 }
 
 #blog-content h1 {
-    text-align: center; /* Centrar el título My blog */
+    text-align: left; /* Centrar el título My blog */
     margin-bottom: 10px; /* Espacio debajo del título */
 }
 
@@ -219,6 +223,12 @@ footer {
 /* Estilos para cada entrada del blog */
 .blog-post {
     margin-bottom: 20px; /* Espacio entre las entradas del blog */
+    /*Contorno*/
+    padding: 15px; /* Espacio interno para el contenido del blog */
+    background-color: #eaece4; /* Un color claro para el fondo de las entradas del blog */
+    border-radius: 8px; /* Bordes redondeados para las entradas del blog */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidad */
+      border: 1px solid #000000; /* Estilo básico para el divider */
 }
 
 .blog-post h3 {
