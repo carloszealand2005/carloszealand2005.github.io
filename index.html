@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Mi Página Personal</title>
     <link rel="stylesheet" href="styles.css">
+ 
 </head>
 <body>
 
@@ -45,16 +46,18 @@
 </section>
 
 
-   <section id="projects-content" style="display: none;">
+ <section id="projects-content" style="display: none;">
     <h1>My projects</h1>
     <hr>
     <div class="project">
         <h3>Solar System App</h3>
         <div class="project-details">
             <img src="images/icon_splash_screen.png" alt="Imagen de Solar System App">
-            <p>This app allows you to navigate through the scope of the Solar System bodies and check daily pictures provided by the NASA.</p>
-            <p><a href="#" target="_blank">Click to see on Google Play</a></p>
-            <p><a href="#" target="_blank">Click to see source code</a></p>
+            <div class="project-info">
+                <p>This app allows you to navigate through the scope of the Solar System bodies and check daily pictures provided by the NASA.</p>
+                <p><a href="https://play.google.com/store/apps/details?id=com.bigoblog.solarsystemapp" target="_blank">Click to see on Google Play</a></p>
+                <p><a href="https://github.com/proyectos-carlos/Space-Discover" target="_blank">Click to see source code</a></p>
+            </div>
         </div>
     </div>
     <hr>
@@ -62,10 +65,29 @@
         <h3>Fuel Track</h3>
         <div class="project-details">
             <img src="images/icon_fuel.png" alt="Icono de Fuel Track">
-            <p>This app allows you to have a place to register the fuel that you give to your own car.</p>
-            <p><a href="#" target="_blank">Click to see on Google Play</a></p>
-            <p><a href="#" target="_blank">Click to see source code</a></p>
+            <div class="project-info">
+                <p>This app allows you to have a place to register the fuel that you give to your own car.</p>
+                <p><a href="https://play.google.com/store/apps/details?id=com.bigoblog.solarsystemapp" target="_blank">Click to see on Google Play</a></p>
+                <p><a href="https://github.com/Bigoh20/WorkCounter" target="_blank">Click to see source code</a></p>
+            </div>
         </div>
+    </div>
+    <hr>
+</section>
+
+<section id="blog-content" style="display: none;">
+    <h1>My blog</h1>
+    <hr>
+    <div class="blog-post">
+        <h3>Título blog 1</h3>
+        <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <p class="post-date">Posted at: 02/08/2025</p>
+    </div>
+    <hr>
+    <div class="blog-post">
+        <h3>Título blog 2</h3>
+        <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+        <p class="post-date">Posted at: 02/08/2025</p>
     </div>
     <hr>
 </section>
@@ -88,5 +110,6 @@
         // Aquí irá el JavaScript para cambiar el contenido
     </script>
 
+   <script src="navigation.js"></script>
 </body>
 </html>

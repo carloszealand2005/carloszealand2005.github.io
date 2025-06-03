@@ -1,6 +1,6 @@
 /* Estilos generales */
 body {
-    background-color: #444444;
+    background-color: #d5cbbd; /* Un color suave de fondo */
     margin: 0; /* Resetear el margen por defecto del body */
     font-family: sans-serif; /* Una fuente genérica para empezar */
     color: #333; /* Color de texto por defecto */
@@ -12,7 +12,7 @@ body {
 
 /* Header (Contiene la navegación) */
 header {
-    background-color: #D9D9D9;
+    background-color: #8dbca3; /* Un color verde suave para el header */
     border-radius: 16px;
     padding: 15px 20px; /* Añadimos algo de padding interno */
     margin-top: 20px; /* Margen superior para separarlo del borde del body */
@@ -55,7 +55,7 @@ nav ul li a.active {
 
 /* Contenido principal */
 .main-content {
-    background-color: #D9D9D9;
+    background-color: #f0e6d2; /* Un color claro para el contenido principal */
     padding: 20px;
     border-radius: 8px;
     flex: 3; /* Ocupa más espacio que la barra lateral (proporción) */
@@ -63,7 +63,7 @@ nav ul li a.active {
 
 /* Barra lateral */
 .sidebar {
-    background-color: #A0A0A0;
+    background-color: #e5b777; /* Un color amarillo melocotón suave para la barra lateral */
     padding: 20px;
     border-radius: 8px;
 
@@ -142,3 +142,98 @@ footer {
     color: #777;
 }
 
+
+
+
+
+/* Estilos para la sección projects-content */
+#projects-content {
+    padding: 20px;
+}
+
+#projects-content h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#projects-content hr {
+    border: 1px solid #ccc;
+    margin: 15px 0;
+}
+
+/* Estilos para cada proyecto individual */
+.project {
+    margin-bottom: 20px;
+}
+
+.project-details {
+    display: flex; /* Mantenemos Flexbox para la imagen y el bloque de texto/enlaces */
+    gap: 20px; /* Espacio entre la imagen y el bloque de texto/enlaces */
+    align-items: flex-start; /* Alinea los elementos verticalmente al inicio */
+}
+
+.project-details img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project-info { /* Nuevo contenedor para el texto y los enlaces */
+    flex-grow: 1; /* Permite que ocupe el espacio restante */
+    display: flex;
+    flex-direction: column; /* Alinea el texto y los enlaces verticalmente */
+}
+
+.project-info p {
+    line-height: 1.5;
+    margin-bottom: 10px; /* Aumentamos el margen inferior del párrafo */
+}
+
+.project-info a {
+    color: blue;
+    text-decoration: none;
+    margin-top: 5px; /* Espacio entre los enlaces */
+}
+
+.project-info a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Estilos para la sección blog-content */
+#blog-content {
+    padding: 20px; /* Asegúrate de que tenga un padding interno */
+}
+
+#blog-content h1 {
+    text-align: center; /* Centrar el título My blog */
+    margin-bottom: 10px; /* Espacio debajo del título */
+}
+
+#blog-content hr {
+    border: 1px solid #ccc; /* Estilo básico para el divider */
+    margin: 15px 0; /* Espacio arriba y abajo del divider */
+}
+
+/* Estilos para cada entrada del blog */
+.blog-post {
+    margin-bottom: 20px; /* Espacio entre las entradas del blog */
+}
+
+.blog-post h3 {
+    font-size: 1.5em; /* Tamaño del título del blog */
+    margin-bottom: 10px; /* Espacio debajo del título del blog */
+    color: #555; /* Un color un poco más suave para el título */
+}
+
+.blog-post p {
+    line-height: 1.6; /* Mejora la legibilidad del texto del blog */
+    margin-bottom: 15px; /* Espacio debajo del párrafo del blog */
+}
+
+.post-date {
+    font-size: 0.85em; /* Tamaño de la fecha */
+    color: #777; /* Color grisáceo para la fecha */
+    text-align: right; /* Alinea la fecha a la derecha */
+}
